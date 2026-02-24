@@ -1,7 +1,7 @@
 const yesBtn = document.querySelector('#yesBtn');
 
 yesBtn.addEventListener('click',function () {
-    alert('eso es todo me debes un besito')
+    alert('eso es todo me debes muchos besitos otey?')
 });
 
 const noBtn = document.querySelector('#noBtn');
@@ -12,4 +12,5 @@ noBtn.addEventListener('mouseover', function () {
     noBtn.style.setProperty('top',randomY+'%');
     noBtn.style.setProperty('left',randomX+'%');
     noBtn.style.setProperty('transform',`translate(-${randomX}%,-${randomY}%)`);
+
 })
